@@ -1,16 +1,15 @@
 # How to Use Type Guards in TypeScript: A Complete Guide with Examples
 
+![TypeScript Type Guards](<images/how to use type guards in typescript.png>)
 TypeScript is a great language that allows us to write code with static types, which can help us catch errors at compile time and improve the readability and maintainability of our code. However, TypeScript is also a superset of JavaScript. It can run any JavaScript code, even if it is not type-safe. This can lead to situations where we have a variable or expression with more than one possible type and we need to know the exact type to perform some operation on it.
 
 Imagine you are a teacher and you have a class of students who are boys and girls. You want to divide the class into two groups: one group for boys and one group for girls. You also want to assign them different tasks based on their gender. How can you tell which student is a boy and which is a girl?
 
-![What would you do if you are a teacher?](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/183d5b80-8cb1-4680-b520-7e080606613e/Untitled.png)
-
-What would you do if you are a teacher?
+![What would you do if you are a teacher?](images/how_to_use_type_guards_in_typescript1.png)
 
 One way is to use a type guard. A type guard tells TypeScript that within a certain scope, the type of a variable or expression is narrowed down to a specific subtype. A type guard is usually a conditional statement that checks for some property or value that can distinguish between different types. In this case, the types are boy and girl, and the property that can distinguish them is their clothing. You can use a conditional statement that checks if the student is wearing a skirt or a dress, which is more common for girls’ clothes. In this way, you can distinguish between a girl and a boy.
 
-![By using the type of dress they wear you can distinguish between a boy and a girl. That’s how TypeScript Type Guard works.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/88c74996-3868-4b25-9442-fd89b83cad2e/Untitled.png)
+![By using the type of dress they wear you can distinguish between a boy and a girl. That’s how TypeScript Type Guard works.](images/how_to_use_type_guards_in_typescript2.png)
 
 By using the type of dress they wear you can distinguish between a boy and a girl. That’s how TypeScript Type Guard works.
 
@@ -37,11 +36,11 @@ There are 3 main types of type guards in TypeScript. In this article, we’ll lo
 
 Imagine you are a chef and have a kitchen full of ingredients. Some ingredients are salt, sugar, flour, eggs, butter, etc. Sometimes, you have a recipe that requires an ingredient that can be either one of two types, such as cheese or bread. You need to know the exact type of ingredient to use the correct method. For example, suppose you have a recipe that takes an ingredient of type `cheese | bread`, and you want to melt it if it is cheese or toast it if it is bread. How can you tell which type of ingredient you have?
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2cd2835-1739-4a03-8728-92f55c0f1783/Untitled.png)
+![Untitled](images/how_to_use_type_guards_in_typescript3.png)
 
 Remember, every ingredient in your kitchen has a taste, smell, and color. You can taste, smell, or see its color to determine the ingredient you need to melt or toast, right?
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4448e08-a6c0-426d-89dd-140daf13274f/Untitled.png)
+![Untitled](images/how_to_use_type_guards_in_typescript4.png)
 
 That is precisely how the `type of` operator works. Every value in TypeScript has a type (just like how every ingredient has a taste), which tells us what kind of data it is and what we can do with it. Let’s see how this analogy works in TypeScript.
 
@@ -90,13 +89,13 @@ Sometimes, we need to check the type of object created from a class or a constru
 
 Imagine you are a carpenter and have a workshop full of tools and materials. Some tools and materials have different properties and methods, such as drills, screwdrivers, screws, tables, chairs, shelves, etc. These are the non-primitive types in TypeScript, derived from primitive types or created by the user using a [class](https://www.typescriptlang.org/docs/handbook/2/classes.html). For example, a drill is a type that has properties like power and speed and methods like turn on or off.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/faf473a0-90ba-4a57-a4f9-95ea5949b8e8/Untitled.png)
+![Untitled](images/how_to_use_type_guards_in_typescript5.png)
 
 Sometimes, a project requires a tool or material that can be either one of two types, such as a drill or screwdriver. You need to know the exact type of the tool or the material to use the correct method on it. For example, suppose you have a project that takes a tool of type `drill | screwdriver`, and you want to turn it on if it is a drill or twist it if it is a screwdriver. How can you tell which type of tool you have?
 
 You can use the physical differences of both tools to tell the drill apart from the screwdriver right? Because a drill and a screwdriver have distinct physical features it’s easier to differentiate them.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/07f9a56b-3465-45f5-b00e-9fa7ec5584b9/Untitled.png)
+![Untitled](images/how_to_use_type_guards_in_typescript6.png)
 
 The `instanceof` operator is also a way of checking (differentiating with physical differences as a carpenter) the class type of an instantiated object. It checks if an object is an instance of a class or a constructor function by looking at its prototype chain. The prototype chain is a series of links that connect an object to its parent class and its parent’s parent class, and so on, until it reaches the `Object` class, which is the primary class for all objects in TypeScript. The `instanceof` operator returns true if it finds the class or the constructor function in the prototype chain of the object, and false otherwise. Also the `instanceof` operator can also be used with built-in classes or constructor functions, such as `Array`, `Date`, or `RegExp`. For example, we can write something like this:
 
@@ -171,11 +170,11 @@ console.log(tool2 instanceof Drill); // This will also return false because tool
 
 Imagine that you have a library of books. Some books have a title, an author, a genre, and a number of pages; some don’t. We can say that the title, author, genre, and number of pages are the properties of the book. You can think of the book as an object and the properties as the names of the attributes that describe the object. Now let’s say your library has many books. The `[in](https://www.typescriptlang.org/docs/handbook/advanced-types.html)` operator in TypeScript allows you to check if an object has a property that belongs to a particular type. You can use the `in` operator to ask questions about the books and the library.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/49cb7a34-b693-47b7-85f1-36e7d1bd1dcb/Untitled.png)
+![Untitled](images/how_to_use_type_guards_in_typescript7.png)
 
 For example, you can use the `in` operator to check if a book has a title property. To do this, you write `title in book`, where `title` is the property name you want to check, and `book` is the object you want to check. The `in` operator will return true or false depending on whether the book has a title.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1deb4d8-f066-4d8b-8f6d-d384c51101c2/Untitled.png)
+![Untitled](images/how_to_use_type_guards_in_typescript8.png)
 
 One of the features of TypeScript is that it lets you define types for your variables and expressions, which are like labels that tell you what kind of data they can store or produce. For example, you can define a type called `Person` with properties like name, age, and occupation.
 
