@@ -1,2 +1,0 @@
-
-# Akwasi Konadu Akuoko
