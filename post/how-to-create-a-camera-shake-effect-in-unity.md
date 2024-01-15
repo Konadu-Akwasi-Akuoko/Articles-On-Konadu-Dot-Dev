@@ -1,4 +1,4 @@
-# How to create a camera shake effect in Unity
+# How to create a camera shake effect in Unity 12
 
 Published on August 16, 2023
 
