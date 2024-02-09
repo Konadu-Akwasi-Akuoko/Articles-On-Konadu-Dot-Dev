@@ -1,6 +1,6 @@
 # How to Use Type Guards in TypeScript: A Complete Guide with Examples
 
-Published on August 16, 2023
+Published on November 19, 2023
 
 ![how to use type guards in typescript](https://cdn.sanity.io/images/ok7qsbpm/production/7bd1175ad8f83feaeb25c3c28cc789f2b2a7cced-1692x1024.png?q=75&fit=clip&auto=format&fm=webp)
 
