@@ -1,6 +1,6 @@
 # Is Next.js Using Unreleased Experimental React Features?
 
-Published on October 30, 2023
+Published on January 3, 2024
 
 ![Someone doing investigation about if next.js is using unreleased react features or not](https://cdn.sanity.io/images/ok7qsbpm/production/c012440d49bb88fc88371d8f5bda7b234f9b8715-1692x1024.png?q=75&fit=clip&auto=format&fm=webp)
 
