@@ -1,4 +1,4 @@
-# Is Next.js Using Unreleased Experimental React Features? 
+# Is Next.js Using Unreleased Experimental React Features?
 
 Published on January 3, 2024
 
