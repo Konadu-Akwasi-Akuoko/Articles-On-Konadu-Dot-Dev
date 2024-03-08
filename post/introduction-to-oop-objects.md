@@ -134,7 +134,7 @@ In general, objects should not manipulate the internal data of other objects (th
 
 So, we now know what an object is in OOP: a combination of data/attributes and methods/behaviors in a single entity. We cannot talk about objects without talking about classes, so in the next blog post, we will be demystifying classes in OOP. Stay tuned.
 
-I am reading a book called Object-Oriented Thought Process(not an affiliate link), which inspired this blog post. I am also writing some notes down as I read; if it is something you like, check out this [GitHub repo for my notes](https://github.com/Konadu-Akwasi-Akuoko/Object-Oriented-Thought-Process/tree/main), and don't forget to also star and share the repo with your friends.
+I am reading a book called Object-Oriented Thought Process(not an affiliate link), which inspired this blog post. I am also writing some notes down as I read; if it is something you like, check out this [GitHub repo for my notes on OOP](https://github.com/Konadu-Akwasi-Akuoko/Object-Oriented-Thought-Process/tree/main), and don't forget to also star and share the repo with your friends.
 
 Hey 👋, I believe you enjoyed this article and learned something new and valuable. If you are into NextJS, check out if [NextJS is using unreleased React features over here](https://konadu.dev/is-nextjs-using-unreleased-experimental-react-features). You can also follow me on [Twitter (or instead X](https://twitter.com/akuoko_konadu) 😂) as I share more tips and tricks to make you improve as a better software engineer.  
   
