@@ -100,7 +100,7 @@ The data of a class is represented by `attributes`. Each class must define the a
 
 > **Access Designations** - When a data type or method is defined as _public_, other objects can directly access it. When a data type or method is defined as _private_, only that specific object can access it. Another access modifier, _protected_, allows access by related objects.
 
-### Methods
+## Methods
 
 Methods implement the required behavior of a class. Every object instantiated from this class includes methods as defined by the class. Methods may implement behaviors that are called from other objects (messages) or provide the fundamental, internal behavior of the class. **Internal behaviors are private methods** that are not accessible by other objects. Here is an example of a private method:
 
