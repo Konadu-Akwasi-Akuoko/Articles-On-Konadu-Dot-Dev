@@ -132,7 +132,7 @@ In general, objects should not manipulate the internal data of other objects (th
 
 ## Conclusion
 
-So, we now know what an object is in OOP: a combination of data/attributes and methods/behaviors in a single entity. We cannot talk about objects without talking about classes, so in the next blog post, we will be demystifying classes in OOP. Stay tuned.
+So, we now know what an object is in OOP: a combination of data/attributes and methods/behaviors in a single entity. We cannot talk about objects without talking about classes, so in the next blog post, we will be demystifying classes in OOP. Stay tuned. Here is the link to the next blog post about [Classes in OOP](https://konadu.dev/introduction-to-oop-classes).
 
 I am reading a book called Object-Oriented Thought Process(not an affiliate link), which inspired this blog post. I am also writing some notes down as I read; if it is something you like, check out this [GitHub repo for my notes on OOP](https://github.com/Konadu-Akwasi-Akuoko/Object-Oriented-Thought-Process/tree/main), and don't forget to also star and share the repo with your friends.
 
