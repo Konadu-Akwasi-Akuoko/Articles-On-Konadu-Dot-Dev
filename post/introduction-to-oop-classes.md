@@ -2,7 +2,7 @@
 
 Published on March 13, 2024
 
-![Introduction to oop: classes](https://cdn.sanity.io/images/ok7qsbpm/production/ced00f8d28804503113b83199f05079e40838892-1692x987.jpg?q=75&fit=clip&auto=format&fm=webp)
+![Introduction to oop: classes](https://cdn.sanity.io/images/ok7qsbpm/production/cd48230fa0b9ed3aa87fc12386c4ce8e0767ebc8-1692x1024.jpg?q=75&fit=clip&auto=format&fm=webp)
 
 In the last post, we talked extensively[ about objects in OOP](https://konadu.dev/introduction-to-oop-objects). We said that objects are the building blocks of every object-oriented program. We also saw that objects are the combination of data or attributes and methods to manipulate that data. Unlike procedural programming, which lets you create global data or attributes and use functions to manipulate the global data, object-oriented programming makes you combine your data and the methods you can use to manipulate that data, and that is what we term an object.  
 We can't also talk about objects without talking about classes; if we do that, it will be like talking about algorithms without talking about data structures; it doesn't make sense. So, without further ado, let's talk about classes in OOP.
