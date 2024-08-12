@@ -99,7 +99,7 @@ describe('HomeComponent', () => {
 
 ```
 
-That is it, we are done. I know this is not much, but for now this is what I am doing to test my `injectQuery` method in Tansktack Query Angular.
+That is it, we are done. I know this is not much, but for now this is what I am doing to test my `injectQuery` method in Tansktack Query Angular. If you have a better way to test this I would be glad to hear about it, you can either click on the edit on GitHub button below to create a PR on this post, or you can [contact me through X](https://twitter.com/akuoko_konadu).
 
 Hey 👋, I believe you enjoyed this shortie (it serves as a note to my future self 😎) and learned something new and valuable. Learn about how to [mock methods in services with jest here.](https://konadu.devhow-to-mock-services-in-angular-using-jest)
 
