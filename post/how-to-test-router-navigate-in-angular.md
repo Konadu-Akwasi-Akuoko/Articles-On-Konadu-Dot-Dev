@@ -8,7 +8,28 @@ When it comes to Angular routing, we mostly inject the `Router` into our applica
 
 Sometimes it can be fun when we do that, especially when you are doing a whole lot of logic before navigating your user.
 
-But the problem arises when we need to write test for the `Router.navigate` function, I found a way that works quite well, check it out: 
+But the problem arises when we need to write test for the `Router.navigate` function, I found a way that works quite well, check it out below.
+
+For clarity, we are trying to test a code that looks like the below:
+
+```undefined
+@Component({
+	selector: 'app-home',
+	standalone: true,
+	imports: [],
+	templateUrl: './home.component.html',
+	styleUrl: './home.component.scss',
+})
+export class HomeComponent implements OnInit {
+	private _router = inject(Router);
+
+	ngOnInit(): void {
+      this._router.navigate(['/']);
+	}
+}
+```
+
+Now let's write the test:
 
 ```undefined
 import { ComponentFixture, TestBed } from '@angular/core/testing';
