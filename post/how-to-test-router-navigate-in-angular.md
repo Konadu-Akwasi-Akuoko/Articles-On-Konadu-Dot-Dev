@@ -4,6 +4,8 @@ Published on August 12, 2024
 
 ![how to test router.navigate in angular](https://cdn.sanity.io/images/ok7qsbpm/production/dd03f454bc66d2079817835d41b1056cfe96d96e-1692x1024.jpg?q=75&fit=clip&auto=format&fm=webp)
 
+Last time we talked about how we can [mock methods in services](https://konadu.devhow-to-mock-services-in-angular-using-jest) in Angular with jest, but now let's talk about the router a bit.
+
 When it comes to Angular routing, we mostly inject the `Router` into our application, and use the [`router.navigate`](https://angular.dev/api/router/Router#navigate) method to navigate programmatically between our pages.
 
 Sometimes it can be fun when we do that, especially when you are doing a whole lot of logic before navigating your user.
