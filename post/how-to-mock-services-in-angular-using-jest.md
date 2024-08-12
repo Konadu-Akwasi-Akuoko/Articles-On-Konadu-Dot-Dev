@@ -63,6 +63,6 @@ That is it, we are done, just like that. Thanks to Henrique for showing me how i
 
 Hey 👋, I believe you enjoyed this shortie (it serves as a note to my future self 😎) and learned something new and valuable. Learn more about [OOP Classes here](https://konadu.devintroduction-to-oop-classes). 
 
-You can also follow me on Twitter (https://twitter.com/akuoko_konadu) (or instead X 😂) as I share more tips and tricks to make you improve as a better software engineer.
+You can also follow me on [Twitter (or instead X 😂)](https://twitter.com/akuoko_konadu) as I share more tips and tricks to make you improve as a better software engineer.
 
 Until then, happy coding!
