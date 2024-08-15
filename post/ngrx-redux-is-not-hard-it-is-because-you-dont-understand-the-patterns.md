@@ -4,6 +4,8 @@ Published on August 15, 2024
 
 ![NGRX/Redux Is Not Hard! Its Because You Don't Understand The Pattern](https://cdn.sanity.io/images/ok7qsbpm/production/dd170f9049b794093a852f7e1a6181b1a4cc7876-1692x1024.png?q=75&fit=clip&auto=format&fm=webp)
 
+We have been talking about [testing in Angular applications](https://konadu.devarticles/series/testing-in-angular) too much over the past few days, let's talk about something nice today 😂😂.
+
 I have suffered before! I remember when I was trying to learn how to use the [Redux State Mangement](https://redux.js.org/) library (applies to [ngrx/store](https://ngrx.io/guide/store)). I couldn't get my head around how it's done. Moreover, I didn't understand why we are doing things the way we are doing it, it made learning Redux a real pain for me. Luckily as time went by, I began to understand the core concepts of redux.
 
 I have learnt that to understand something better in the software engineering world we need to understand the intricate patterns pertaining to the problem.
@@ -1278,7 +1280,7 @@ All these libraries are not monsters, but it takes time to understand it really 
 
 And did you notice that we did not talk about selectors, the thing is if you get all there is to know about store, reducers, and actions, it will be easy to wrap your head around selectors (it's not something hard).
 
-Hey 👋, I believe you enjoyed this book 😂😂😂 and learned something new and valuable. Learn about how to test [Router.navigate in Angular here.](https://konadu.devhow-to-test-router-navigate-in-angular)
+Hey 👋, I believe you enjoyed this book 😂😂😂 and learned something new and valuable. To learn all about OOP, [check this series](https://konadu.devarticles/series/introduction-to-oop)[.](https://konadu.devhow-to-test-router-navigate-in-angular)
 
 You can also follow me on [Twitter (or instead X 😂)](https://twitter.com/akuoko_konadu) as I share more tips and tricks to make you improve as a better software engineer.
 
