@@ -4,7 +4,7 @@ Published on August 19, 2024
 
 ![Maximum Points You Can Obtain from Cards - LeetCode 1423](https://cdn.sanity.io/images/ok7qsbpm/production/aea16a9194274aad88e0086ff5c734115bbede74-1692x1024.png?q=75&fit=clip&auto=format&fm=webp)
 
-A brand new Monday, let's torture ourselves a little bit, with this leetcode problem. Last week was a week of [learning redux](https://konadu.dev/ngrx-redux-is-not-hard-it-is-because-you-dont-understand-the-patterns) and learning [how to write tests.](https://konadu.dev/series/testing-in-angular)
+A brand new Monday, let's torture ourselves a little bit, with this leetcode problem. Last week was a week of [learning redux](https://konadu.dev/ngrx-redux-is-not-hard-it-is-because-you-dont-understand-the-patterns) and learning [how to write tests.](https://konadu.devarticles/series/testing-in-angular)
 
 ## The problem
 
