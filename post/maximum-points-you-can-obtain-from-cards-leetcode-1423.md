@@ -33,7 +33,7 @@ Given the integer array `cardPoints` and the integer `k`, return the _maximum sc
   * Here, `k = 3`, so you need to pick 3 cards.
 3. **Possible Choices:**  
   * You can pick the first 3 cards: `[1, 2, 3]` → Sum = `1 + 2 + 3 = 6`
-  * You can pick the last 3 cards: `[6, 1, 1]` → Sum = `6 + 1 + 1 = 8`
+  * You can pick the last 3 cards: `[5, 6, 1]` → Sum = 5` + 6 + 1 = 12`
   * You can pick 2 cards from the start and 1 from the end: `[1, 2, 1]` → Sum = `1 + 2 + 1 = 4`
   * You can pick 1 card from the start and 2 from the end: `[1, 6, 1]` → Sum = `1 + 6 + 1 = 8`
 4. **Optimal Choice:**
