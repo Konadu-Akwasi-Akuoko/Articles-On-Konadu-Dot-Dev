@@ -1,4 +1,4 @@
-# Maximum Points You Can Obtain from Cards - LeeCode 1423
+# Maximum Points You Can Obtain from Cards - LeetCode 1423
 
 Published on August 19, 2024
 
