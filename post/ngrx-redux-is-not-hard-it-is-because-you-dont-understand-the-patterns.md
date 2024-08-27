@@ -972,7 +972,7 @@ unsubscribe();
 
 From the above code, we import the `store` that we created earlier. We then subscribe to the store using the `subscribe` method of the store. The `subscribe` method takes a callback function that will be called whenever the state of the store changes. We then dispatch actions to the store using the `dispatch` method of the store. We dispatch an `ADD_BUG` action to add a bug to the store. We then dispatch a `RESOLVE_BUG` action to mark a bug as resolved in the store. We then log the state of the store to the console. We then dispatch a `REMOVE_BUG` action to remove a bug from the store. We then log the state of the store to the console.
 
-### Using `combineReducers() in redux state management library`
+### Using `combineReducers()` in redux state management library
 
 In a real-world application, we will have multiple slices of the store. Each slice will have its own reducer function. We can use the `combineReducers` function from `redux` to combine multiple reducer functions into a single reducer function. Let's take a look at how we can use the `combineReducers` function to combine multiple reducer functions into a single reducer function. 
 
